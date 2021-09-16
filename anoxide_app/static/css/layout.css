@@ -33,8 +33,10 @@ header {
    height: 800px;
    min-height: 500px;
    width: 100%;
-   background: #161415 url(../img/undercon.jpg) no-repeat top center;
+   background: #161415 url(../img/undercon.jpg) no-repeat center center;
+   
    background-size: cover !important;
+   background-attachment: fixed;
 	-webkit-background-size: cover !important;
    text-align: center;
    overflow: hidden;
@@ -59,6 +61,7 @@ header .banner {
 iframe {
    display: block;
    border-style:none;
+   align-self: center;
 }
 
 header .banner-text { width: 100%; }
@@ -192,6 +195,7 @@ ul#nav li.current a { color: #F06000; }
 /* ------------------------------------------------------------------ */
 
 #about {
+   
    background: #2B2B2B;
    padding-top: 96px;
    padding-bottom: 66px;
@@ -644,7 +648,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../img/undercon.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -654,6 +658,8 @@ call-to-action .button {
    width: 100%;
    overflow: hidden;
 }
+
+
 #testimonials .text-container {
    padding-top: 96px;
    padding-bottom: 66px;
