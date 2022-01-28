@@ -9,5 +9,9 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
+@app.route('/press.html')
+def press():
+    return render_template('press.html')
+
 if __name__ == '__main__':
     app.run(debug=True)
