@@ -9,7 +9,7 @@ app = Flask(__name__)
 def index():
     return render_template('index.html')
 
-@app.route('/press.html')
+@app.route('/press')
 def press():
     return render_template('press.html')
 
