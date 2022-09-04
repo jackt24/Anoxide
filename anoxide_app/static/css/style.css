@@ -164,31 +164,31 @@ body.lb-disable-scrolling{
 @font-face{
     font-display:swap;
     font-family:AuldMagick;
-    src:url(/public/fonts/AuldMagick.ttf)
+    src:url(/fonts/AuldMagick.ttf)
 }
 @font-face{
     font-display:swap;
     font-family:AuldMagick Bold;
     font-weight:700;
-    src:url(/fonts/AuldMagick_Bold.ttf?2f1339a59ecb52292045b59475dc2c8c)
+    src:url(/fonts/AuldMagick_Bold.ttf)
 }
 @font-face{
     font-display:swap;
     font-family:AuldMagick Italic;
     font-style:italic;
-    src:url(/fonts/AuldMagick_Italic.ttf?8e0f3ed6020eb9acc6666690a8151625)
+    src:url(/fonts/AuldMagick_Italic.ttf)
 }
 @font-face{
     font-display:swap;
     font-family:AuldMagick Bold Italic;
     font-style:italic,oblique;
     font-weight:700;
-    src:url(/fonts/AuldMagick_Bold_Italic.ttf?563076896ce7ba3b0d8a80e75935feed)
+    src:url(/fonts/AuldMagick_Bold_Italic.ttf)
 }
 @font-face{
     font-display:swap;
     font-family:Avatarock;
-    src:url(/fonts/Avatarock.ttf?e89860b12fe8bedf006541b644c09e36)
+    src:url(/fonts/Avatarock.ttf)
 }
 #noty_layout__bottom,#noty_layout__bottomCenter,#noty_layout__bottomLeft,#noty_layout__bottomRight,#noty_layout__center,#noty_layout__centerLeft,#noty_layout__centerRight,#noty_layout__top,#noty_layout__topCenter,#noty_layout__topLeft,#noty_layout__topRight,.noty_layout_mixin{
     -webkit-font-smoothing:subpixel-antialiased;
