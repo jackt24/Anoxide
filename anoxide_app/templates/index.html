@@ -1,544 +1,499 @@
-<!DOCTYPE html>
-<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
-<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
-<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
+<!doctype html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-   <!--- Basic Page Needs
-   ================================================== -->
-   <meta charset="utf-8">
-	<img href={{ url_for('static',filename='img/') }}
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <meta name="robots" content="noindex">
 
-   <!-- Mobile Specific Metas
-   ================================================== -->
-	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="description" content="Press Kit of Antzaat. Check out the biography, contact information, pictures, artwork, reviews and interviews.">
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="canonical" href="https://antzaat.com/press">
 
-	<!-- CSS
-    ================================================== -->
-   <link rel="stylesheet" href={{ url_for('static',filename='css/default.css') }}>
-	<link rel="stylesheet" href={{ url_for('static',filename='css/layout.css') }}>
-   <link rel="stylesheet" href={{ url_for('static',filename='css/media-queries.css') }}>
-   <link rel="stylesheet" href={{ url_for('static',filename='css/magnific-popup.css') }}>
+    <!-- Open Graph Meta Tags-->
+    <meta property="og:title" content="Press kit">
+    <meta property="og:url" content="https://antzaat.com/press">
+    <meta property="og:image" content="https://antzaat.com/images/pictures/website/og_image.png">
+    <meta property="og:description" content="Press Kit of Antzaat. Check out the biography, contact information, pictures, artwork, reviews and interviews.">
+    <meta property="og:locale" content="nl_BE">
+            <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="Press Kit of Antzaat. Check out the biography, contact information, pictures, artwork, reviews and interviews.">
+    <meta name="twitter:site" content="@flickr">
+    <meta name="twitter:title" content="Press kit">
+    <meta name="twitter:description" content="Press Kit of Antzaat. Check out the biography, contact information, pictures, artwork, reviews and interviews.">
+    <meta name="twitter:image" content="https://antzaat.com/images/pictures/website/og_image.png">
 
-   <!-- Script
-   ================================================== -->
-	<script src="js/modernizr.js"></script>
+    <!-- Fonts -->
+    
 
-   <!-- Favicons
-	================================================== -->
-	<link rel="shortcut icon" href="favicon.png" >
-
+    <!-- Styles -->
+    
+    <link href="/anoxide_app/static/css/style.css" rel="stylesheet">
+    
+    <title>Press kit</title>
 </head>
-
-<body>
-
-   <!-- Header
-   ================================================== -->
-   <header id="home">
-
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">About</a></li>
-	         <li><a class="smoothscroll" href="#resume">Music</a></li>
-            <li><a class="smoothscroll" href="#portfolio">Tour</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Merch</a></li>
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
-
-      <div class="row banner">
-         <div class="banner-text">
-            <h1 class="responsive-headline">Under Construction m8</h1>
-            <!-- <h3>I'm a Manila based <span>graphic designer</span>, <span>illustrator</span> and <span>webdesigner</span> creating awesome and
-            effective visual identities for companies of all sizes around the globe. Let's <a class="smoothscroll" href="#about">start scrolling</a>
-            and learn more <a class="smoothscroll" href="#about">about me</a>.</h3>
-            <hr /> -->
-            <ul class="social">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
+<body class="band_site">
+    
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
+    <div class="container">
+        <a class="navbar-brand" href="/">
+            <img src="https://antzaat.com/images/logos/100x_antzaat_grey.png" srcset="https://antzaat.com/images/logos/200x_antzaat_grey.png 2x, https://antzaat.com/images/logos/antzaat_grey.png 3x" class="nav_logo" data-protip="Download our hi-res logo at https://antzaat.com/press" alt="Antzaat">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="collapsNav">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item ">
+                    <a class="nav-link" href="/">News</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/band">Band</a>
+                </li>
+                
+                <li class="nav-item ">
+                    <a class="nav-link" href="/shop">Shop</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/media">Media</a>
+                </li>
+                <li class="nav-item ">
+                    <a class="nav-link" href="/contact">Contact</a>
+                </li>
             </ul>
-         </div>
-      </div>
+        </div>
+    </div>
+</nav>
 
-      <p class="scrolldown">
-         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
-      </p>
+    <main class="container py-3 py-md-5 px-2 px-md-5">
+        
+        	<div class="container">
+		<div class="row">
+			<div class="col-12 col-md-9">
+				<h1>Press kit</h1>
+				<p></p>
+				<p class="text-center mb-0"><img src="/images/logos/400x_antzaat.png" alt="Antzaat" style="width: 200px;"></p>
+				<p class="lead text-center text_quote">Old-school black metal from Belgium</p>
 
-   </header> <!-- Header End -->
+				<div class="media_links mt-5 mb-4">
+					<a class="btn btn-secondary mr-2 mb-3 mb-3" href="#scroll_bio_long">Biography</a>
+					<a class="btn btn-secondary mr-2 mb-3 mb-3" href="#scroll_contact">Contact</a>
+					<a class="btn btn-secondary mr-2 mb-3 mb-3" href="#scroll_pictures">Pictures</a>
+					<a class="btn btn-secondary mr-2 mb-3 mb-3" href="#scroll_artwork">Artwork</a>
+					<a class="btn btn-secondary mr-2 mb-3 mb-3" href="#scroll_reviews">Reviews / Interviews</a>
+					<a class="btn btn-secondary mr-2 mb-3 mb-3" href="#scroll_social_media">Social media</a>
+				</div>
 
+				<h2 id="scroll_bio_long">Biography (long)</h2>
+				<p><strong>Antzaat</strong> was founded in 2015 by Ronarg, Isaroth and Eenzaat. In 2017, Nihil joined the band.</p><p>The <strong>Antzaat</strong> sound can best be described as old-school Scandinavian black metal, similar to bands like Sargeist and Behexen. On the 25th of September 2017, Antzaat released their EP &quot;<strong>The Black Hand of the Father</strong>&quot; with Immortal Frost Productions.</p>
+				<p>One year later <strong>Antzaat</strong> embarked on a European tour with Azaghal, Myrkvid and Sekhmet.</p>
+				<p>On the 30th of October 2020, Antzaat unleashed their first full length &quot;<strong>For You Men Who Gaze into the Sun</strong>&quot;.</p>
+				<p></p>
 
-   <!-- About Section
-   ================================================== -->
-   <section id="about">
+				<h2 id="scroll_bio_short" class="mt-5">Biography (short)</h2>
+				<p><strong>Antzaat</strong> was founded in 2015. Their sound can best be described as old-school Scandinavian black metal. In 2017, Antzaat released their first EP and on the 30th of October 2020 they released their first full-length.</p>
+				<p></p>
 
-      <div class="row">
+				<h2 id="scroll_releases" class="mt-5">Releases</h2>
+				<div class="row">
+					<div class="col-sm-6">
+                        <h3 class="title_font">For You Men Who Gaze into the Sun</h3>
+                        <p><small>2020 (Full Length) <span class="float-right">CD/Vinyl</span></small></p>
+                        <a href="images/albumart/2020_For_You_Men_Who_Gaze_Into_The_Sun.jpg" target="_blank" data-lightbox="releases" data-title="Full Length - For You Men Who Gaze into the Sun">
+                            <img src="images/albumart/2020_For_You_Men_Who_Gaze_Into_The_Sun.jpg" alt="Full Length - For You Men Who Gaze into the Sun" class="img-fluid mb-3">
+                        </a>
+                        <ol>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#1" target="_blank" title="Lyrics for Intro">Intro</a></li>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#2" target="_blank" title="Lyrics for Between the Beginning and the End">Between the Beginning and the End</a></li>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#3" target="_blank" title="Lyrics for For You Men Who Gaze into the Sun">For You Men Who Gaze into the Sun</a></li>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#4" target="_blank" title="Lyrics for Crown of Concrete">Crown of Concrete</a></li>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#5" target="_blank" title="Lyrics for Through the Eyes of a Rotten Mind">Through the Eyes of a Rotten Mind</a></li>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#6" target="_blank" title="Lyrics for Radiant Fire">Radiant Fire</a></li>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#7" target="_blank" title="Lyrics for Veil of Darkness">Veil of Darkness</a></li>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#8" target="_blank" title="Lyrics for Man Made Flesh Made God Machine">Man Made Flesh Made God Machine</a></li>
+                            <li><a href="http://www.darklyrics.com/lyrics/antzaat/foryoumenwhogazeintothesun.html#9" target="_blank" title="Lyrics for And This Day Shall Come Again">And This Day Shall Come Again</a></li>
+                        </ol>
+                    </div>
+                    <div class="col-sm-6">
+						<h3 class="title_font">The Black Hand of the Father</h3>
+						<p><small>2017 (EP) <span class="float-right">CD/Vinyl</span></small></p>
+						<a href="images/albumart/2017_The_Black_Hand_of_the_Father.jpg" target="_blank" data-lightbox="releases" data-title="EP The Black Hand of the Father">
+							<img src="images/albumart/2017_The_Black_Hand_of_the_Father.jpg" alt="EP The Black Hand of the Father" class="img-fluid mb-3">
+						</a>
+						<ol>
+							<li><a href="http://www.darklyrics.com/lyrics/antzaat/theblackhandofthefather.html#1" target="_blank" title="Lyrics for Disciples of the Concrete Temple">Disciples of the Concrete Temple</a></li>
+							<li><a href="http://www.darklyrics.com/lyrics/antzaat/theblackhandofthefather.html#2" target="_blank" title="Lyrics for Rite of the New Dawn">Rite of the New Dawn</a></li>
+							<li><a href="http://www.darklyrics.com/lyrics/antzaat/theblackhandofthefather.html#3" target="_blank" title="Lyrics for Circle of Leeches">Circle of Leeches</a></li>
+							<li><a href="http://www.darklyrics.com/lyrics/antzaat/theblackhandofthefather.html#4" target="_blank" title="Lyrics for Hierachy of the Battered">Hierachy of the Battered</a></li>
+							<li><a href="http://www.darklyrics.com/lyrics/antzaat/theblackhandofthefather.html#5" target="_blank" title="Lyrics for The Black Hand of the Father">The Black Hand of the Father</a></li>
+						</ol>
+					</div>
+				</div>
 
-               <div class="main-col">
-                        <iframe width=100% height="315" src="https://www.youtube.com/embed/Ur3Ma3hTvvY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-               </div>
-      </div>
+				<h2 id="scroll_contact" class="mt-5">Contact info</h2>
+				<dl class="row">
+					<dt class="col-sm-3">Contact person</dt>
+					<dd class="col-sm-9">
+						<a href="/contact">Jimi Verhaegen (Eenzaat)</a><br>
+						&#098;&#097;&#110;&#100;&#064;&#097;&#110;&#116;&#122;&#097;&#097;&#116;&#046;&#099;&#111;&#109;<br>
+						&#048;&#048;&#051;&#050;&#032;&#052;&#055;&#056;&#032;&#048;&#057;&#032;&#051;&#053;&#032;&#048;&#057;
+					</dd>
 
-   </section> <!-- About Section End-->
+					<dt class="col-sm-3">Label</dt>
+					<dd class="col-sm-9">
+						<a href="https://www.immortalfrostproductions.com/" target="_blank">Immortal Frost Productions</a><br>
+						&#73;&#109;&#109;&#111;&#114;&#116;&#97;&#108;&#102;&#114;&#111;&#115;&#116;&#112;&#114;&#111;&#100;&#117;&#99;&#116;&#105;&#111;&#110;&#115;&#64;&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
+					</dd>
 
+					<dt class="col-sm-3">Bookings</dt>
+					<dd class="col-sm-9">
+						<a href="https://booking.immortalfrostproductions.com/" target="_blank">IFP Bookings &amp; Tour Management</a><br>
+						&#105;&#102;&#112;&#98;&#111;&#111;&#107;&#105;&#110;&#103;&#115;&#64;&#104;&#111;&#116;&#109;&#97;&#105;&#108;&#46;&#99;&#111;&#109;
+					</dd>
+				</dl>
+				<p></p>
 
-   <!-- Resume Section
-   ================================================== -->
-   <section id="testimonials">
+				<h2 id="scroll_pictures" class="mt-5">Pictures</h2>
+				<p><a href="/images/files/Pictures_Antzaat.zip" download>Download our latest pictures in high quality</a></p>
+				<div class="row gallery">
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/pictures/official/band_2020_1.jpg" target="_blank" data-lightbox="pictures" data-title="Band pic - By Daan De Roeck">
+							<img src="images/pictures/official/200x200_band_2020_1.jpg" alt="Band pic - By Daan De Roeck" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/pictures/official/band_2020_2.jpg" target="_blank" data-lightbox="pictures" data-title="Band pic - By Daan De Roeck">
+							<img src="images/pictures/official/200x200_band_2020_2.jpg" alt="Band pic - By Daan De Roeck" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/pictures/official/band_2020_3.jpg" target="_blank" data-lightbox="pictures" data-title="Band pic - By Daan De Roeck">
+							<img src="images/pictures/official/200x200_band_2020_3.jpg" alt="Band pic - By Daan De Roeck" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/pictures/official/band_2020_4.jpg" target="_blank" data-lightbox="pictures" data-title="Band pic - By Daan De Roeck">
+							<img src="images/pictures/official/200x200_band_2020_4.jpg" alt="Band pic - By Daan De Roeck" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/pictures/official/ronarg_2020.jpg" target="_blank" data-lightbox="pictures" data-title="Ronarg - By Daan De Roeck">
+							<img src="images/pictures/official/200x200_ronarg_2020.jpg" alt="Ronarg - By Daan De Roeck" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/pictures/official/nihil_2020.jpg" target="_blank" data-lightbox="pictures" data-title="Nihil - By Daan De Roeck">
+							<img src="images/pictures/official/200x200_nihil_2020.jpg" alt="Nihil - By Daan De Roeck" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/pictures/official/isaroth_2020.jpg" target="_blank" data-lightbox="pictures" data-title="Isaroth - By Daan De Roeck">
+							<img src="images/pictures/official/200x200_isaroth_2020.jpg" alt="Isaroth - By Daan De Roeck" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/pictures/official/eenzaat_2020.jpg" target="_blank" data-lightbox="pictures" data-title="Eenzaat - By Daan De Roeck">
+							<img src="images/pictures/official/200x200_eenzaat_2020.jpg" alt="Eenzaat - By Daan De Roeck" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<p></p>
 
-      <!-- Education
-      ----------------------------------------------- -->
-      <!-- <div class="row education">
+				<h2 id="scroll_artwork" class="mt-5">Artwork</h2>
+				<p><a href="/images/files/Logo_Antzaat.zip" download>Download our logo in different formats</a></p>
+				<div class="row gallery">
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/logos/antzaat.png" target="_blank" data-lightbox="press_artwork" data-title="Antzaat logo">
+							<img src="images/logos/200x200_antzaat.png" alt="Antzaat logo" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/albumart/2017_The_Black_Hand_of_the_Father.jpg" target="_blank" data-lightbox="press_artwork" data-title="EP The Black Hand of the Father">
+							<img src="images/albumart/200x200_2017_The_Black_Hand_of_the_Father.jpg" alt="EP The Black Hand of the Father" class="img-fluid">
+						</a>
+					</div>
+					<div class="col-6 col-sm-4 col-md-3 mb-4">
+						<a href="images/albumart/2020_For_You_Men_Who_Gaze_Into_The_Sun.jpg" target="_blank" data-lightbox="press_artwork" data-title="CD For You Men Who Gaze Into The Sun">
+							<img src="images/albumart/200x200_2020_For_You_Men_Who_Gaze_Into_The_Sun.jpg" alt="CD For You Men Who Gaze Into The Sun" class="img-fluid">
+						</a>
+					</div>
+				</div>
+				<p></p>
 
-         <div class="three columns header-col">
-            <h1><span>Education</span></h1>
-         </div>
+				<h2 id="scroll_reviews" class="mt-5">Reviews</h2>
+				<dl class="row mb-0">
+					<dt class="col-sm-3"><a href="https://sylb.eu/the-blasphemic-warfare-ii-am-08-04-2022-im-helvete-oberhausen/" target="_blank">SYLB</a><small> (German)<br>[2022-04-09]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Krass geil ist auch der Black Metal, den sie spielen. Der kommt immer wieder mit schönen, melodischen Parts daher, kann aber auch mit Härte punkten und nimmt auch gern mal das Tempo raus. Das ist tatsächlich der Black Metal, wie ich ihn am liebsten höre.&quot;</em></dd>
 
-         <div class="nine columns main-col">
+					<dt class="col-sm-3"><a href="https://pestwebzine.com/index/antzaat_for_you_men_who_gaze_into_the_sun/0-2639" target="_blank">Pest Webzine</a><small><br>[2021-01-29]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Ok, now we all know labels are usually marketing their releases with "the highly anticipated" or similar, but in this case here it's actually true.&quot;</em></dd>
 
-            <div class="row item">
+					<dt class="col-sm-3"><a href="https://www.thevoidjournal.com/2020/10/29/antzaat-for-you-men-who-gaze-into-the-sun-ревю-премиера/" target="_blank">The Void Journal</a><small><br>[2020-10-29]</small></dt>
+					<dd class="col-sm-9"><em>&quot;If you are looking for music that will get under your skin and break the flesh of your outdated ideas and thinking, then this is the album that will give you a real sense of cult, accompanied by a strong and aggressive black metal attack and a captivating, obsessive concept.&quot;</em></dd>
+				</dl>
 
-               <div class="twelve columns">
+				<dl class="reviews_toggle row collapse">
+					<dt class="col-sm-3"><a href="https://www.metalinside.ch/2021/10/black-hole-fest-ii-hall-of-fame-wetzikon-2021-review/" target="_blank">Metal Inside.ch</a><small><br>[2021-11-15]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Meine persönlichen und ganz grossen Highlights hiessen Causam und Antzaat.&quot;</em></dd>
 
-                  <h3>Placeholder</h3>
-                  <p class="info">Master in Graphic Design <span>&bull;</span> <em class="date">April 2007</em></p>
+					<dt class="col-sm-3"><a href="https://www.youtube.com/watch?v=HFP6jC-Ibo4&t=1144s" target="_blank">Temple of Bleh &amp; Uber Rock</a><small><br>[2021-05-03]</small></dt>
+					<dd class="col-sm-9"><em>&quot;I saw the cover of two skeletons jousting each other and I was like: I'm listening to this!&quot;</em></dd>
 
-                  <p>
-                  Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-                  Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis,
-                  ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
-                  Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. Nullam dictum felis eu pede mollis pretium.
-                  </p>
+					<dt class="col-sm-3"><a href="https://addergebroed.com/2021/02/01/antzaat-for-you-men-who-gaze-into-the-sun/" target="_blank">Addergebroed</a><small> (Dutch)<br>[2021-02-01]</small></dt>
+					<dd class="col-sm-9"><em>&quot;IJzige tremolo gitaren, een geprononceerde baslijn, episch slepend mid-tempo drumwerk doet mijn hart weer opleven. Ik hou van gelaagde muziek.&quot;</em></dd>
 
-               </div>
+					<dt class="col-sm-3"><a href="https://friedhof-magazine.com/criticas/antzaat-you-men-who-gaze-sun" target="_blank">Friedhof Magazine</a><small> (Spanish)<br>[2021-01-28]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Primer largo para estos belgas que comenzaron editando el EP &quot;The Black Hand of the Father&quot; en 2017 y que dejan claro que lo suyo es el Black Metal frío, cortante y rápido en una inicial &quot;Between The Beginning And The End&quot; que goza de unas mezclas donde se aprecian todos los instrumentos sin dificultad.&quot;</em></dd>
 
-            </div> item end -->
+					<dt class="col-sm-3"><a href="https://theoldcoffinspirit.com/antzaat-for-you-men-who-gaze-into-the-sun/" target="_blank">The Old Coffin Spirit</a><small> (Portuguese)<br>[2021-01-19]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Ouvir e resenhar esse álbum é uma tarefa ingrata pois destacar músicas aqui é difícil e ao mesmo tempo um grande prazer. A qualidade é total, do início ao fim do álbum. Todas as músicas presentes aqui seguem uma linha muito próxima e investem pesado no feeling. [...] Um lançamento que irei ficar um bom tempo ouvindo no meu playlist.&quot;</em></dd>
 
-            <!-- <div class="row item"> -->
+					<dt class="col-sm-3"><a href="https://luminousdash.be/belgisch/antzaat-for-you-men-who-gaze-into-the-sun-immortal-frost-productions/" target="_blank">Luminous Dash</a><small> (Dutch)<br>[2020-12-08]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Je hoort dat de band een zekere evolutie doormaakte sinds het debuut. Zo slagen ze erin te verwijzen naar diverse black metal subgenres, zonder te verzanden in oeverloos gepiel. Het titelnummer laat Anzaat uitblinken in wat ze best doen: compromisloze black metal die blaast als een wilde furie.&quot;</em></dd>
 
-               <!-- <div class="twelve columns">
+					<dt class="col-sm-3"><a href="https://avenoctum.com/2020/10/29/antzaat-for-you-men-who-gaze-into-the-sun-immortal-frost-productions/" target="_blank">Ave Noctum</a><small><br>[2020-11-29]</small></dt>
+					<dd class="col-sm-9"><em>&quot;The atmosphere transforms between fury and contemptuous control. The vocalist shouts and screams as the title track pours its old school violent offering over us.&quot;</em></dd>
 
-                  <h3>School of Cool Designers</h3>
-                  <p class="info">B.A. Degree in Graphic Design <span>&bull;</span> <em class="date">March 2003</em></p>
+					<dt class="col-sm-3"><a href="https://zwaremetalen.com/albumrecensies/antzaat-for-you-men-who-gaze-into-the-sun" target="_blank">Zware Metalen</a><small> (Dutch)<br>[2020-11-20]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Een mooi evenwicht tussen een kundige productie en uitvoering enerzijds en de creatie van naargeestige atmosfeer door wazigheid in het gespannen gitaarwerk.&quot;</em></dd>
 
-                  <p>
-                  This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                  Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                  nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan
-                  ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat
-                  </p>
+					<dt class="col-sm-3"><a href="https://www.truemetal.it/recensioni/for-you-men-who-gaze-into-the-sun" target="_blank">Truemetal</a><small> (Italian)<br>[2020-11-19]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Ci troviamo ad analizzare un lavoro sostanzialmente senza veri difetti, un'opera solida e incredibilmente completa per essere un primo album effettivo. Il piatto è servito e si tratta di una prelibatezza.&quot;</em></dd>
 
-               </div> -->
+					<dt class="col-sm-3"><a href="http://www.themidlandsrocks.com/antzaat-for-you-men-who-gaze-into-the-sun/" target="_blank">The Midlands Rocks</a><small><br>[2020-11-12]</small></dt>
+					<dd class="col-sm-9"><em>&quot;The album's title track opens with a siren-like call to arms before vocalist and guitarist Ronarg bellows &quot;For You Men Who Gaze into the Sun&quot; in the style of Primordial rabble-rouser AA Nemtheanga. While the blastbeats drop like overhit golf balls they are cushioned by Nihil's incessant grooves which while razorwire sharp are also sustained by searing melodies.&quot;</em></dd>
 
-            </div> <!-- item end -->
+					<dt class="col-sm-3"><a href="https://themetalgamerblog.wordpress.com/2020/11/12/antzaat-for-you-men-who-gaze-into-the-sun-black-metal/" target="_blank">The Metal Gamer</a><small><br>[2020-11-12]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Quickly Ronarg makes me succumb to his shrieks of anguish as that's what initially pulls me into liking this album. When the rest of the band accompany him well in creating an uneasy atmosphere that's well fitted for this occult offering and you're in for a black metal treat.&quot;</em></dd>
 
-         </div> <!-- main-col end -->
+					<dt class="col-sm-3"><a href="https://www.aristocraziawebzine.com/recensioni/antzaat-for-you-men-who-gaze-into-the-sun/" target="_blank">Aristocazia Webzine</a><small><br>[2020-11-12]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Manco a dirlo la title track brilla, come un po' tutto il disco, grazie alla duttilità della voce, capace di fare luce e ombra quando serve, donando profondità comunicativa alla musica.&quot;</em></dd>
 
-      </div> <!-- End Education -->
+					<dt class="col-sm-3"><a href="https://www.amped-up.be/2020/11/11/antzaat-for-you-men-who-gaze-into-the-sun/" target="_blank">Amped Up</a><small><br>[2020-11-11]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Antzaat laat horen dat wij Belgen best trots mogen zijn op onze vrij beperkte scene. For You Men Who Gaze Into the Sun bevat prima black metal en zit heerlijk in de mix. Af en toe worden we getrakteerd op een effect hier en daar, waardoor er toch een bepaalde vibe wordt neergezet welke niet toelaat dat onze aandacht gaat verslappen.&quot;</em></dd>
 
+					<dt class="col-sm-3"><a href="https://www.disfactory.it/antzaat-for-you-men-who-gaze-into-the-sun/" target="_blank">Disfactory</a><small> (Italian)<br>[2020-11-06]</small></dt>
+					<dd class="col-sm-9"><em>&quot;For You Men Who Gaze into the Sun è &quot;tanto&quot;, è un treno che viaggia dritto e pesante, pronto a tritare tutto ciò che calpesta lasciando una bella impronta e quella sacra voglia di essere riascoltato da lì a poco.&quot;</em></dd>
 
-      <!-- Work
-      ----------------------------------------------- -->
-      <div class="row">
+					<dt class="col-sm-3"><a href="https://www.undergrounded.de" data-old="https://www.undergrounded.de/component/k2/item/4567-antzaat-for-you-men-who-gaze-into-the-sun" target="_blank">Undergrounded</a><small> (German)<br>[2020-11-02]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Die wiederkehrende, affin klingende Melodien wird quasi eine Geschichte erzählt, so dass das Album schon fast als Konzeptalbum durchgehen könnte. Der Vorhang fällt mit einem Song, der nochmal alle Charakteristika, die Antzaats Stil ausmachen, vereint und das Album ebenso explosiv verabschiedet, wie es uns zu Beginn vorgestellt wurde – als harmonisches Zerschmettern.&quot;</em></dd>
 
-      </div>
+					<dt class="col-sm-3"><a href="https://www.youtube.com/watch?v=O2GQiiOAV_I" target="_blank">Rauta</a><small><br>[2020-11-02]</small></dt>
+					<dd class="col-sm-9"><em>&quot;The music is quite cool. Nice production that complements the melodic parts. Not too polished, not too raw.&quot;</em></dd>
 
-   </section> <!-- Resume Section End-->
+					<dt class="col-sm-3"><a href="https://aeafanzine.blogspot.com/2020/11/full-length-review-antzaat-for-you-men.html" target="_blank">Asphyxium Zine</a><small><br>[2020-11-01]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Complete with a church-like organ introduction that feels sacred to the band, it's one of 2020's blackest masses, far removed from anything resonating of peace and tranquility.&quot;</em></dd>
 
+					<dt class="col-sm-3"><a href="https://legacy.de/reviews/2650-antzaat-for-you-men-who-gaze-into-the-sun.html" target="_blank">Legacy</a><small> (German)<br>[2020-10-30]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Die dargebotenen Kompositionen liebäugeln mit der schwedischen Tradition des melodischen Black Metal (man denke an Dark Funeral) und wechseln fließend zwischen schnelleren und Midtempo-Passagen, ohne jemals auf die Gitarrenmelodien zu vergessen.&quot;</em></dd>
 
-   <!-- Portfolio Section
-   ================================================== -->
-   <section id="about">
+					<dt class="col-sm-3"><a href="https://wonderboxmetal.com/2020/10/29/antzaat-for-you-men-who-gaze-into-the-sun-review/" target="_blank">Wonderbox Metal</a><small><br>[2020-10-29]</small></dt>
+					<dd class="col-sm-9"><em>&quot;For You Men Who Gaze into the Sun has a powerful instant appeal as it reaches out with its melodic claws to grab hold of you. Scything blackened rhythms and pummelling drums smash you down as the singer's grim screams and howls lacerate your flesh.&quot;</em></dd>
 
-      <div class="row">
+					<dt class="col-sm-3"><a href="https://www.helldiest.com/post/antzaat-for-you-men-who-gaze-into-the-sun-immortal-frost" target="_blank">Hell Diest</a><small> (Dutch)<br>[2020-10-29]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Een drietal jaren geleden leerde Immortal Frost ons het Belgische Antzaat kennen, middels de debuut ep &quot;The Black Hand of the Father&quot;. Hierop was reeds het potentieel van deze band te horen, en deze nieuwe plaat bevestigd enkel maar het vermoeden dat Antzaat een (duistere) parel is die schittert tussen tussen al het zwarte geweld.&quot;</em></dd>
 
-         <div class="main-col">
+					<dt class="col-sm-3"><a href="https://www.impe.fi/reviews/1/21433" target="_blank">Imperiumi</a><small> (Finnish)<br>[2020-10-28]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Levyn usein reipastempoinen tarjonta on sekoitus aggressiota, melodiaa ja tarttuvuutta. Hitaampiakin kohtia löytyy, mikä tasapainottaa levyä oivallisesti. Vaikka riffit ovat toimivia, soundipuoli hyväksi viilattu ja ärinäanti keskitasoa parempaa, mitään ikimuistoista ja ihmeellistä Anzaat-debyyttialbumi ei tarjoa.&quot;</em></dd>
 
-                <iframe src="https://open.spotify.com/embed/artist/4KBmFZor2fPFgyz4AOaPXN?theme=0" width="100%" height="380" frameBorder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+					<dt class="col-sm-3"><a href="https://eternal-terror.com/2020/10/24/antzaat-for-you-men-who-gaze-into-the-sun/" target="_blank">Eternal Terror Webzine</a><small><br>[2020-10-24]</small></dt>
+					<dd class="col-sm-9"><em>&quot;I am pleased to announce that this upcoming full-length disc of theirs is a most worthy follow-up and just the kind of record you underground black metal fuckbags out there need if you dig epic music with a cold and cynical vibe to it.&quot;</em></dd>
 
-         </div> <!-- twelve columns end -->
+					<dt class="col-sm-3"><a href="https://friedhof-magazine.com/criticas/antzaat-black-hand-father" target="_blank">Friedhof Magazine</a><small> (Spanish)<br>[2017-12-21]</small></dt>
+					<dd class="col-sm-9"><em>&quot;No tengo ni idea de dónde ha salido esta gente, pero me han sorprendido desde el minuto 0. Es difícil encontrar una banda que debute con un trabajo tan bueno, y Antzaat lo ha conseguido sin dudas.&quot;</em></dd>
 
+					<dt class="col-sm-3"><a href="https://zwaremetalen.com/albumrecensies/antzaat-the-black-hand-of-the-father" target="_blank">Zware Metalen</a><small> (Dutch)<br>[2017-11-07]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Antzaat verrast door op deze EP uit te pakken met black metal die niet alleen uitblinkt qua uitvoering en sound, maar ook door de samenstelling.&quot;</em></dd>
 
-         <!-- Modal Popup
-	      --------------------------------------------------------------- -->
+					<dt class="col-sm-3"><a href="https://eternal-terror.com/2017/10/12/antzaat-the-black-hand-of-the-father/" target="_blank">Eternal Terror</a><small> (Dutch)<br>[2017-10-12]</small></dt>
+					<dd class="col-sm-9"><em>&quot;If you are on the lookout for a solid slab of dark and desolate piece of music and wish to lose yourself in a sickening fog for roughly 22 minutes, then look no further than "The Black Hand of the Father". It will serve your basic black metal needs and is worth exploring.&quot;</em></dd>
 
-         <div id="modal-01" class="popup-modal mfp-hide">
+					<dt class="col-sm-3"><a href="http://www.themidlandsrocks.com/antzaat-the-black-hand-of-the-father-ep/" target="_blank">The Midlands Rock</a><small><br>[2017-09-30]</small></dt>
+					<dd class="col-sm-9"><em>&quot;It feels as though there's no stopping Antzaat who by now are fully into their stride, a commanding presence that throbs with confidence and competence.&quot;</em></dd>
 
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-coffee.jpg" alt="" />
+					<dt class="col-sm-3"><a href="https://thegoattavern.net/antzaat-the-black-hand-of-the-father/" target="_blank">The Goat Tavern</a><small><br>[2017-09-25]</small></dt>
+					<dd class="col-sm-9"><em>&quot;The mixture of talent and a good music idea is a perfect ingredient for a debut album and Antzaat has managed to get it right.&quot;</em></dd>
+				</dl>
 
-		      <div class="description-box">
-			      <h4>Coffee Cup</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
+				<button class="btn btn-primary collapsed" data-toggle="collapse" data-target=".reviews_toggle" aria-expanded="false" aria-controls="reviews_toggle">
+					Show <span class="toggle_more">more</span><span class="toggle_less">less</span> reviews
+				</button>
 
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
+				<p></p>
+
+				<h2 id="scroll_interviews" class="mt-5">Interviews</h2>
+				<dl class="row">
+					<dt class="col-sm-3"><a href="http://www.rocktribune.be/" target="_blank">Rock Tribune</a><small> (Dutch)<br>[2021-01-01]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Met Antzaat hebben we in ons Vlaanderlandje alweer een knaller van een black metalband die zeker de internationale concurrentie mee kan aangaan. Hun debuut &quot;For You Men Who Gaze Into The Sun&quot; is indrukwekkend en ligt hier bijna dagelijks op, dus gingen we even babbelen met dummer Eenzaat en zanger/gitarist Ronarg&hellip;&quot;</em></dd>
+
+					<dt class="col-sm-3"><a href="https://www.ztmag.com/news/belgian-black-metal-heads-antzaat-delivered-a-crushing-debut-enough-reason-to-chat-with-them-about-men-who-ganze-into-the-sun/" target="_blank">Zero Tolerance Magazine</a><small><br>[2020-12-16]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Antzaat's debut For You Men Who Gaze Into The Sun delivers quality melodic black metal in the vein of Scandinavian and Finnish idols. Absorbing the energy present in the album, ZT's Jonathan Jancsary quickly decided to talk with Ronarg about this album.&hellip;&quot;</em></dd>
+
+					<dt class="col-sm-3"><a href="https://headbangersla.com/interview-antzaat-its-fair-that-people-compare-our-appearances-with-mgla-and-uada-as-they-are-similar-in-presentation/" target="_blank">Headbangers Latino America</a><small><br>[2020-09-26]</small></dt>
+					<dd class="col-sm-9"><em>&quot;October 30 will see the world launch of one of the most anticipated albums within the Black Metal scene. It is the debut album of the Belgian band ANTZAAT, which will be titled &quot;For You Men Who Gaze Into the Sun&quot;&hellip;&quot;</em></dd>
+
+					<dt class="col-sm-3"><a href="https://lordsofmetalarchive.nl/en/interviews/view/id/6248" target="_blank">Lords of Metal</a><small><br>[2017-11-23]</small></dt>
+					<dd class="col-sm-9"><em>&quot;Antzaat knocked me hard against my head with their debut &quot;The Black Hand Of The Father&quot;&hellip;&quot;</em></dd>
+
+					<dt class="col-sm-3"><a href="https://addergebroed.com/2017/11/23/antzaat-een-dystopische-blik-op-de-maatschappij/" target="_blank">Addergebroed</a><small> (Dutch)<br>[2017-11-23]</small></dt>
+					<dd class="col-sm-9"><em>&quot;De laatste jaren doken er tal van veelbelovende black metal bands uit de Belgische underground op. Een recente nieuwkomer is Antzaat die met haar eerste EP &quot;Black hand of the father&quot; meteen wist te overtuigen&hellip;&quot;</em></dd>
+				</dl>
+				<p></p>
+
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<h2 id="scroll_social_media" class="mt-5">Social media</h2>
+						<ul class="list-unstyled">
+							<li><a href="https://www.facebook.com/Antzaat/" target="_blank">Facebook</a></li>
+							<li><a href="https://www.instagram.com/antzaatblack/" target="_blank">Instagram</a></li>
+							<li><a href="https://www.youtube.com/c/Antzaat" target="_blank">YouTube (band)</a></li>
+							<li><a href="https://www.youtube.com/user/ImmortalFrostprod/" target="_blank">YouTube (label)</a></li>
+							<li><a href="https://www.bandsintown.com/en/a/14963301-antzaat" target="_blank">bandsintown</a></li>
+							<li><a href="https://www.metal-archives.com/bands/Antzaat/3540431512" target="_blank">Metal Archives</a></li>
+							<li><a href="https://vi.be/platform/antzaat" target="_blank">VI.BE</a></li>
+						</ul>
+					</div>
+
+					<div class="col-12 col-md-4">
+						<h2 class="mt-5">Streaming platforms</h2>
+						<ul class="list-unstyled">
+							<li><a href="https://open.spotify.com/artist/3uDeZ0tXRpJFlJXRgF7QJa" target="_blank">Spotify</a></li>
+							<li><a href="https://www.deezer.com/artist/13284135" target="_blank">Deezer</a></li>
+							<li><a href="https://music.apple.com/artist/antzaat/1291404205" target="_blank">Apple Music</a></li>
+							<li><a href="https://digital.immortalfrostproductions.com/album/the-black-hand-of-the-father" target="_blank">Bandcamp</a></li>
+						</ul>
+					</div>
+
+					<div class="col-12 col-md-4">
+						<h2 class="mt-5">Listings</h2>
+						<ul class="list-unstyled">
+							<li><a href="https://musicbrainz.org/artist/a5ae89d8-8a25-44b5-a6ad-1d7e126c342f" target="_blank">MusicBrainz</a></li>
+							<li><a href="https://www.discogs.com/artist/6033701-Antzaat" target="_blank">Discogs</a></li>
+							<li><a href="https://www.songkick.com/artists/9354899-antzaat" target="_blank">Songkick</a></li>
+							<li><a href="https://www.last.fm/music/Antzaat" target="_blank">Last.fm</a></li>
+							<li><a href="https://www.metalkingdom.net/band/antzaat-32273" target="_blank">Metal Kingdom</a></li>
+							<li><a href="http://www.darklyrics.com/a/antzaat.html" target="_blank">Dark Lyrics</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="col-12 col-md-3">
+				<nav class="d-none d-md-block sidebar">
+	<div id="sidebar_events" class="mb-4" style="display: none;">
+		<h2>Next Concerts</h2>
+
+		<div class="events mb-2"></div>
+
+		<a href="https://www.facebook.com/Antzaat/events/" target="_blank">More events</a>
+	</div>
+
+	<div class="mb-4">
+		<h2>Latest Release</h2>
+		<a href="/shop" class="d-block mb-2">
+			<img src="https://antzaat.com/images/albumart/500x500_2020_For_You_Men_Who_Gaze_Into_The_Sun.jpg" alt="For You Men Who Gaze into the Sun" class="img-fluid">
+		</a>
+		<a href="/shop">Get this album</a>
+	</div>
+
+	<div class="mb-4">
+		<h2>Mailing List</h2>
+		<form action="/mail_list" method="post">
+			<input type="hidden" name="_token" value="KamFu10xM8BZo04NeLeMC7Amcuy4OTWYJRsXa4rv">
+			<input type="email" id="email" name="email" class="form-control " placeholder="your&#x40;email.com" value="" required>
+
+			
+			<input type="text" name="function" id="function"
+					aria-hidden="true"
+					tabindex="-1"
+					class="form-control important_field"
+					placeholder="Your function"
+					value=""
+					autocomplete="off">
+
+			<label for="consent"><input type="checkbox" id="consent" name="consent" class="mt-3 mr-2" required>I would like to receive news, concert dates and release info from Antzaat by e-mail</label>
+
+			<button type="submit" class="btn btn-primary mt-2">Send</button>
+		</form>
+	</div>
+</nav>			</div>
+		</div>
+	</div>
+    </main>
+
+    <footer class="footer p-5 text-light bg-dark">
+    <div class="container">
+    	<div class="row">
+    		<div class="col-12 col-md-6 col-lg-4 mb-4">
+    			<div class="row">
+    				<div class="col-6">
+    					<p class="font-weight-bold text-center"><a href="https://www.immortalfrostproductions.com/" target="_blank"><img src="https://antzaat.com/images/logos/160x160_immortal_frost_productions.png" srcset="https://antzaat.com/images/logos/320x320_immortal_frost_productions.png 2x, https://antzaat.com/images/logos/600x600_immortal_frost_productions.png 3x" alt="Immortal Frost Productions" class="img-fluid"><br>Label</a></p>
+    				</div>
+    				<div class="col-6">
+    					<p class="font-weight-bold text-center"><a href="https://booking.immortalfrostproductions.com/" target="_blank"><img src="https://antzaat.com/images/logos/160x160_ifp_bookings.png" srcset="https://antzaat.com/images/logos/320x320_ifp_bookings.png 2x, https://antzaat.com/images/logos/600x600_ifp_bookings.png 3x" alt="IFP Bookings" class="img-fluid"><br>Bookings</a></p>
+    				</div>
+    			</div>
+    		</div>
+
+    		<div class="col-6 col-md-2 col-lg-2 col-xl-2 offset-0 offset-lg-3 text-center text-md-left mb-4">
+                <h5 class="text-uppercase">Links</h5>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="/contact">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/press">Press kit</a></li>
+                    <li class="nav-item"><a class="nav-link" href="/privacy_and_cookie_policy">Privacy &amp; Cookie Policy</a></li>
+                    
+                </ul>
+    		</div>
+
+    		<div class="col-6 col-md-4 col-lg-3 col-xl-3 social_media_list text-center text-md-left mb-4">
+                <h5 class="text-uppercase">Platforms</h5>
+
+                <div class="row mb-2">
+    				<div class="col-12 text-center text-md-left">
+                        <div class="social_media_item d-inline-block mr-2 mb-2">
+    					   <a href="https://www.facebook.com/antzaat" title="Antzaat on Facebook" target="_blank"><i class="fa fa-2x fa-facebook-square"></i></a>
+                        </div>
+                        <div class="social_media_item d-inline-block mr-2 mb-2">
+    					   <a href="https://www.instagram.com/antzaatblack/" title="Antzaat on Instagram" target="_blank"><i class="fa fa-2x fa-instagram"></i></a>
+                        </div>
+                        <div class="social_media_item d-inline-block mr-2 mb-2">
+    					   <a href="https://www.youtube.com/c/Antzaat" title="Antzaat on Youtube" target="_blank"><i class="fa fa-2x fa-youtube"></i></a>
+                        </div>
+                        <div class="social_media_item d-inline-block mr-2 mb-2">
+    					   <a href="https://digital.immortalfrostproductions.com/album/the-black-hand-of-the-father" title="Antzaat on Bandcamp" target="_blank"><i class="fa fa-2x fa-bandcamp"></i></a>
+                        </div>
+    				</div>
+
+    				<div class="col-12 text-center text-md-left">
+                        <div class="social_media_item d-inline-block mr-2 mb-2">
+    					   <a href="https://open.spotify.com/artist/3uDeZ0tXRpJFlJXRgF7QJa" title="Antzaat on Spotify" target="_blank"><i class="fa fa-2x fa-spotify"></i></a>
+                        </div>
+                        <div class="social_media_item d-inline-block mr-2 mb-2">
+    					   <a href="https://www.deezer.com/artist/13284135" title="Antzaat on Deezer" target="_blank"><i class="fa fa-2x fa-deezer"></i></a>
+                        </div>
+                        <div class="social_media_item d-inline-block mr-2 mb-2">
+    					   <a href="https://music.apple.com/us/artist/antzaat/1291404205" title="Antzaat on Apple Music" target="_blank"><i class="fa fa-2x fa-apple"></i></a>
+                        </div>
+                        <div class="social_media_item d-inline-block mr-2 mb-2">
+    					   <a href="https://www.last.fm/music/Antzaat" title="Antzaat on Last.fm" target="_blank"><i class="fa fa-2x fa-lastfm"></i></a>
+                        </div>
+    				</div>
+    			</div>
+    		</div>
+    	</div>
+        <div class="row">
+            <div class="col-12 text-center">
+                <p class="mb-0">&copy; 2015-2022 Antzaat - All rights reserved</p>
             </div>
-
-	      </div><!-- modal-01 End -->
-
-         <div id="modal-02" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-console.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Console</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Web Development</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-02 End -->
-
-         <div id="modal-03" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-judah.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Judah</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-03 End -->
-
-         <div id="modal-04" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-intothelight.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Into the Light</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-04 End -->
-
-         <div id="modal-05" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-farmerboy.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Farmer Boy</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Webdesign</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-05 End -->
-
-         <div id="modal-06" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-girl.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Girl</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-06 End -->
-
-         <div id="modal-07" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-origami.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Origami</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Branding, Illustration</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-07 End -->
-
-         <div id="modal-08" class="popup-modal mfp-hide">
-
-		      <img class="scale-with-grid" src="images/portfolio/modals/m-retrocam.jpg" alt="" />
-
-		      <div class="description-box">
-			      <h4>Retrocam</h4>
-			      <p>Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit.</p>
-               <span class="categories"><i class="fa fa-tag"></i>Webdesign, Photography</span>
-		      </div>
-
-            <div class="link-box">
-               <a href="http://www.behance.net" target="_blank">Details</a>
-		         <a class="popup-modal-dismiss">Close</a>
-            </div>
-
-	      </div><!-- modal-01 End -->
-
-
-      </div> <!-- row End -->
-
-   </section> <!-- Portfolio Section End-->
-
-
-   <!-- Call-To-Action Section
-   ================================================== -->
-   <!-- <section id="call-to-action">
-
-      <div class="row">
-
-         <div class="two columns header-col">
-
-            <h1><span>Get Hosting.</span></h1>
-
-         </div>
-
-         <div class="seven columns">
-
-            <h2><span class="lead">Unde Omnis Iste</span></h2>
-            <p><span class="lead">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-            eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae. </span></p>
-
-         </div>
-
-         <div class="three columns action">
-
-
-
-         </div>
-
-      </div>
-
-   </section> Call-To-Action Section End -->
-
-
-   <!-- Testimonials Section
-   ================================================== -->
-   <section id="testimonials">
-
-      <div class="text-container">
-
-         <div class="row">
-
-            <div class="two columns header-col">
-
-               <h1><span>Client Testimonials</span></h1>
-
-            </div>
-
-            <div class="ten columns flex-container">
-
-               <div class="flexslider">
-
-                  <ul class="slides">
-
-                     <li>
-                        <blockquote>
-                           <p> yeah based
-                           </p>
-                           <cite>Alex Houlder</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                     <li>
-                        <blockquote>
-                           <p>This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                           Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem
-                           nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris.
-                           </p>
-                           <cite>Mr. Adobe</cite>
-                        </blockquote>
-                     </li> <!-- slide ends -->
-
-                  </ul>
-
-               </div> <!-- div.flexslider ends -->
-
-            </div> <!-- div.flex-container ends -->
-
-         </div> <!-- row ends -->
-
-       </div>  <!-- text-container ends -->
-
-   </section> <!-- Testimonials Section End-->
-
-
-   <!-- Contact Section
-   ================================================== -->
-   <section id="contact">
-
-         <div class="row">
-
-            <div class="eight columns">
-
-               <!-- form -->
-               <form action="" method="post" id="contactForm" name="contactForm">
-					<fieldset>
-
-                  <div>
-						   <label for="contactName">Name <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactName" name="contactName">
-                  </div>
-
-                  <div>
-						   <label for="contactEmail">Email <span class="required">*</span></label>
-						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
-                  </div>
-
-                  <div>
-						   <label for="contactSubject">Subject</label>
-						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
-                  </div>
-
-                  <div>
-                     <label for="contactMessage">Message <span class="required">*</span></label>
-                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
-                  </div>
-
-                  <div>
-                     <button class="submit">Submit</button>
-                     <span id="image-loader">
-                        <img alt="" src="images/loader.gif">
-                     </span>
-                  </div>
-
-					</fieldset>
-				   </form> <!-- Form End -->
-
-               <!-- contact-warning -->
-               <div id="message-warning"> Error boy</div>
-               <!-- contact-success -->
-				   <div id="message-success">
-                  <i class="fa fa-check"></i>Your message was sent, thank you!<br>
-				   </div>
-
-            </div>
-
-
-            <aside class="four columns footer-widgets">
-
-               <div class="widget widget_contact">
-
-					   <h4>Address and Phone</h4>
-					   <p class="address">
-						   Jonathan Doe<br>
-						   1600 Amphitheatre Parkway <br>
-						   Mountain View, CA 94043 US<br>
-						   <span>(123) 456-7890</span>
-					   </p>
-
-				   </div>
-
-               <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div>
-
-            </aside>
-
-      </div>
-
-   </section> <!-- Contact Section End-->
-
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-               <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-               <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-               <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
-               <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-               <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-               <li><a href="#"><i class="fa fa-skype"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>&copy; Copyright 2014 CeeVee</li>
-               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Styleshout</a></li>   
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
-
-   <!-- Java Script
-   ================================================== -->
-   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
-   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
-
-   <script src="js/jquery.flexslider.js"></script>
-   <script src="js/waypoints.js"></script>
-   <script src="js/jquery.fittext.js"></script>
-   <script src="js/magnific-popup.js"></script>
-   <script src="js/init.js"></script>
-
+        </div>
+    </div>
+</footer>
+    <!-- Scripts -->
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    
+    <script src="/js/script.js" defer></script>
+    
 </body>
-
 </html>
