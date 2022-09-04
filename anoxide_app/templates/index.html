@@ -25,10 +25,38 @@
     <meta name="twitter:description" content="Press Kit of Antzaat. Check out the biography, contact information, pictures, artwork, reviews and interviews.">
     <meta name="twitter:image" content="https://antzaat.com/images/pictures/website/og_image.png">
 
-    <!-- Fonts -->
-    
+    <!-- Fonts + Styles -->
 
-    <!-- Styles -->
+    <style>
+      body.band_site{
+         background-image:url("{{url_for('static', filename='img/undercon.jpg')}}");
+      }
+
+      body.band_site main p{
+         font-size: 1rem !important;
+      }
+
+      p{
+         font-family: Arial, Helvetica, sans-serif !important;
+         font-size: 1rem !important;
+      }
+
+      h2{
+         font-size: 4rem !important;
+      }
+
+      .h1{
+         font-size: 5rem !important;
+      }
+
+
+      @font-face{
+         font-family: trial;
+         font-family:AuldMagick Bold;
+         font-weight:700;
+         /* src:url(static\fonts\AuldMagick_Bold.ttf) */
+         src:url("{{ url_for('static', filename='css/fonts/AuldMagick_Bold.ttf') }}"); 
+    </style>
     
     <!-- <link href="/anoxide_app/static/css/style.css" rel="stylesheet"> -->
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
@@ -39,32 +67,9 @@
     
     <nav class="navbar navbar-expand-md navbar-dark bg-dark shadow-sm">
     <div class="container">
-        <a class="navbar-brand" href="/">
-            <img src="https://antzaat.com/images/logos/100x_antzaat_grey.png" srcset="https://antzaat.com/images/logos/200x_antzaat_grey.png 2x, https://antzaat.com/images/logos/antzaat_grey.png 3x" class="nav_logo" data-protip="Download our hi-res logo at https://antzaat.com/press" alt="Antzaat">
+        <a class="navbar-brand; display: block; margin-left: auto; margin-right: auto; width: 50%;" href="/">
+            <img src="{{url_for('static', filename='img/anoxidelogo.png')}}" srcset="{{url_for('static', filename='img/anoxidelogo.png')}} 2x, {{url_for('static', filename='img/anoxidelogo.png')}} 3x" class="nav_logo" data-protip="Download our hi-res logo at https://www.anoxide.co.uk/press" alt="Anoxide">
         </a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsNav">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="collapsNav">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item ">
-                    <a class="nav-link" href="/">News</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="/band">Band</a>
-                </li>
-                
-                <li class="nav-item ">
-                    <a class="nav-link" href="/shop">Shop</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="/media">Media</a>
-                </li>
-                <li class="nav-item ">
-                    <a class="nav-link" href="/contact">Contact</a>
-                </li>
-            </ul>
-        </div>
     </div>
 </nav>
 
@@ -73,10 +78,10 @@
         	<div class="container">
 		<div class="row">
 			<div class="col-12 col-md-9">
-				<h1>Press kit</h1>
+				<h1 style="font-size: 5rem !important;">Press kit</h1>
 				<p></p>
-				<p class="text-center mb-0"><img src="/images/logos/400x_antzaat.png" alt="Antzaat" style="width: 200px;"></p>
-				<p class="lead text-center text_quote">Old-school black metal from Belgium</p>
+				<p class="text-center mb-0"><img src="{{url_for('static', filename='img/anoxidelogosquare.jpg')}}" alt="Anoxide" style="width: 400px;"></p>
+				<p class="lead text-center" style="font-family:AuldMagick Bold !important;font-size: 3rem !important;">Totally Shite Death Metal</p>
 
 				<div class="media_links mt-5 mb-4">
 					<a class="btn btn-secondary mr-2 mb-3 mb-3" href="#scroll_bio_long">Biography</a>
@@ -88,8 +93,8 @@
 				</div>
 
 				<h2 id="scroll_bio_long">Biography (long)</h2>
-				<p><strong>Antzaat</strong> was founded in 2015 by Ronarg, Isaroth and Eenzaat. In 2017, Nihil joined the band.</p><p>The <strong>Antzaat</strong> sound can best be described as old-school Scandinavian black metal, similar to bands like Sargeist and Behexen. On the 25th of September 2017, Antzaat released their EP &quot;<strong>The Black Hand of the Father</strong>&quot; with Immortal Frost Productions.</p>
-				<p>One year later <strong>Antzaat</strong> embarked on a European tour with Azaghal, Myrkvid and Sekhmet.</p>
+				<p><strong>Anoxide</strong> was founded in 2015 by Ronarg, Isaroth and Eenzaat. In 2017, Nihil joined the band.</p><p>The <strong>Antzaat</strong> sound can best be described as old-school Scandinavian black metal, similar to bands like Sargeist and Behexen. On the 25th of September 2017, Antzaat released their EP &quot;<strong>The Black Hand of the Father</strong>&quot; with Immortal Frost Productions.</p>
+				<p>One year later <strong>Anoxide</strong> embarked on a European tour with Azaghal, Myrkvid and Sekhmet.</p>
 				<p>On the 30th of October 2020, Antzaat unleashed their first full length &quot;<strong>For You Men Who Gaze into the Sun</strong>&quot;.</p>
 				<p></p>
 
