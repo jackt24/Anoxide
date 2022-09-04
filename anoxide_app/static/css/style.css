@@ -70,11 +70,11 @@ body.lb-disable-scrolling{
 .lb-container>.nav{
     left:0
 }
-.lb-nav a{
+/* .lb-nav a{
     background-image:url(data:image/gif;
     base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==);
     outline:0
-}
+} */
 .lb-next,.lb-prev{
     cursor:pointer;
     display:block;
